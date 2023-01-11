@@ -1,0 +1,53 @@
+thead tr {
+    background: var(--C_white);
+    height: 50px;
+   }
+   
+   tbody tr:nth-child(even) {
+    background: var(--C_white);
+   }
+   
+   thead th {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--C_text_dark);
+    text-transform: capitalize;
+    
+   }
+   
+   .td {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin-top: 10px;
+    height: 60px;
+    color: var(--C_text_dark);
+   }
+   
+   .td button {
+    height: 100%;
+    width: 100%;
+   }
+   
+   tbody tr {
+    border-radius: 60px !important;
+   }
+   
+   table tbody .icon {
+    font-size: 16px;
+    color: #85888c;
+   }
+   table tbody .icon:hover {
+    cursor: pointer;
+    color: var(--C_black);
+   }
+   
+   .custom-table {
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(33, 63, 125, 0.06);
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+   }

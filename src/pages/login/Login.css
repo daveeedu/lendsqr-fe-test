@@ -1,0 +1,85 @@
+.auth__page .hammer-wrapper {
+    height: 100vh;
+    width: 45vw;
+    background-size: cover;
+    /* background-image: url('../../assets/images/IlogIn.png'); */
+    background-repeat: no-repeat center;
+    position: relative;
+   }
+
+   .auth__page .layout-custom {
+    display: flex;
+    flex-direction: row;
+    /* gap: 50px; */
+   }
+   
+   .auth__page .custom__border{
+       border: 1px solid #556777;
+       width: 33vw;
+       height: 100%;
+       border-radius: 8px;
+   }
+   
+   .auth__page .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFFFFF;;
+   }
+   
+   .auth__page .logo__img {
+    position: absolute;
+    height: 36px;
+    width: 173.76473999023438px;
+    left: 97px;
+    top: 106px;
+    border-radius: 0px;
+   }
+
+   .auth__page .logo__img2 {
+    position: absolute;
+    height: 337.56939697265625px;
+    width: 600px;
+    left: 67px;
+    top: 281px;
+   }
+   
+   .auth__page .brand {
+    margin-top: 10%;
+   }
+   
+   .auth__page .title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 39px;
+   }
+   
+   .auth__page .subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+   }
+   
+   .auth__page .description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D2E3D;
+   }
+   
+   .auth__page .page__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: var(--F_24);
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.005em;
+   }
