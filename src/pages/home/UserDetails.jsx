@@ -56,7 +56,7 @@ const getUsers = async (  ) => {
                     email,
                     phoneNumber,
                     createdAt,
-                    employmentStatus,
+                    status=  res?.education?.employmentStatus,
                     id,
                   } = res
                   return {
@@ -66,7 +66,7 @@ const getUsers = async (  ) => {
                     EMAIL: email,
                     'PHONE NUMBER': phoneNumber,
                     'DATE JOINED': dayjs(createdAt).format('MMM DD, YYYY mm:ss A'),
-                    'STATUS': employmentStatus,
+                    'STATUS': status,
                     _data: res
                   };
                 }
@@ -85,8 +85,6 @@ const getUsers = async (  ) => {
   }
 }
 
-
-const [timeOut, setTimeout] = React.useState(3000);
   useEffect(() => {
     setIsLoading(true);
     (async () => {
