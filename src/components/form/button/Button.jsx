@@ -128,7 +128,6 @@ const Button = ({
 					</SButton>
 				</Wrapper>
 			</div>
-		</ThemeProvider>
-	);
-};
+		</ThemeProvider> 
+	); 
 export default Button;
